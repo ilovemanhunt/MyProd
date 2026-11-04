@@ -1,0 +1,273 @@
+{
+  "generated": "2026-10-24",
+  "status": "applied-variant-a",
+  "appliedAt": "2026-10-24",
+  "sourceReport": "ZERO-COVERAGE-PROPOSAL-2026-10-24.md",
+  "applied": [
+    "nfs-world: PC platform block (no codes)",
+    "nfs-unbound: PC platform block (no codes)",
+    "nfs-shift-2-unleashed: new core game with PC/PS3/Xbox 360 blocks (no codes)"
+  ],
+  "notApplied": [
+    "nfs-underground-rivals: 5 quarantined candidates",
+    "gran-turismo platform blocks (optional structural changes)"
+  ],
+  "policy": {
+    "twoIndependentSources": "verified:true",
+    "oneSource": "verified:false",
+    "conflictOrUnverifiable": "do not add",
+    "excluded": [
+      "SE-only codes",
+      "progress passwords",
+      "trainers and save edits",
+      "promo codes",
+      "device codes without exact game version/region"
+    ]
+  },
+  "recommended": [
+    {
+      "slug": "nfs-world",
+      "operation": "addPlatformBlock",
+      "platform": "pc",
+      "value": {
+        "input": "text",
+        "howTo": [
+          "Безкоштовна онлайн-гра; вбудованих чіт-кодів немає.",
+          "Промокоди та сезонні нагороди не є чіт-кодами і не додаються до каталогу."
+        ],
+        "codes": []
+      }
+    },
+    {
+      "slug": "nfs-unbound",
+      "operation": "addPlatformBlock",
+      "platform": "pc",
+      "value": {
+        "input": "text",
+        "howTo": [
+          "Вбудованих чіт-кодів немає — автомобілі та прогрес відкриваються через гру та онлайн-сезони."
+        ],
+        "codes": []
+      }
+    },
+    {
+      "slug": "nfs-shift-2-unleashed",
+      "operation": "addGame",
+      "value": {
+        "slug": "nfs-shift-2-unleashed",
+        "title": "Shift 2: Unleashed",
+        "year": 2011,
+        "developer": "Slightly Mad Studios",
+        "publisher": "Electronic Arts",
+        "era": "mid",
+        "featured": false,
+        "hasCodes": false,
+        "added": "2026-10-24",
+        "lastUpdated": "2026-10-24",
+        "accent": [
+          "#ff8a00",
+          "#3a0ca3"
+        ],
+        "blurb": "Продовження Need for Speed: Shift від Slightly Mad Studios: трекові гонки, Autolog і кар'єра. Вбудованих чіт-кодів немає.",
+        "bonus": false,
+        "platforms": {
+          "pc": {
+            "input": "text",
+            "howTo": [
+              "Вбудованих чіт-кодів немає — прогрес і авто відкриваються через гру."
+            ],
+            "codes": []
+          },
+          "ps3": {
+            "input": "text",
+            "howTo": [
+              "Вбудованих чіт-кодів немає."
+            ],
+            "codes": []
+          },
+          "xbox360": {
+            "input": "text",
+            "howTo": [
+              "Вбудованих чіт-кодів немає."
+            ],
+            "codes": []
+          }
+        }
+      }
+    }
+  ],
+  "quarantined": [
+    {
+      "slug": "nfs-underground-rivals",
+      "operation": "replacePlatformBlock",
+      "platform": "psp",
+      "reason": "5 button combinations found only on GameGenie; GameFAQs lists no codes for this game; not independently confirmed; manual PSP test required.",
+      "value": {
+        "input": "buttons",
+        "howTo": [
+          "PSP-ексклюзив. За даними GameGenie, комбінації вводяться як код; точне місце введення не підтверджене.",
+          "Наведені коди не підтверджені другим незалежним джерелом — статус verified:false.",
+          "Бонусні авто також можна відкрити в Boss-заїздах: Charger/Impreza — PRO, Corvette/Skyline — MASTER."
+        ],
+        "codes": [
+          {
+            "category": "Ігровий процес",
+            "name": "Прискорення x2, крутний момент x6, потужність x2, керованість x9",
+            "code": "L1 L1 L1 R1 R1 R1 ◀ ▶",
+            "effect": "За GameGenie: Acceleration x2, Torque x6, Power x2, Handling x9, All Type Grip x99000000.",
+            "verified": false
+          },
+          {
+            "category": "Автомобілі",
+            "name": "DJ Wess — Chevrolet Corvette Z06",
+            "code": "R1 R1 R2 R2 ▶ ▶ ◀ ◀",
+            "effect": "Відкриває Chevrolet Corvette Z06 (DJ Wess).",
+            "verified": false
+          },
+          {
+            "category": "Автомобілі",
+            "name": "GT King — Nissan Skyline R34 GTR",
+            "code": "L1 L1 L2 L2 ◀ ◀ ▶ ▶",
+            "effect": "Відкриває Nissan Skyline R34 GTR (GT King).",
+            "verified": false
+          },
+          {
+            "category": "Автомобілі",
+            "name": "Tank — 1969 Dodge Charger",
+            "code": "R1 L1 R2 L2 ▶ ◀ ▶ ◀",
+            "effect": "Відкриває 1969 Dodge Charger (Tank).",
+            "verified": false
+          },
+          {
+            "category": "Автомобілі",
+            "name": "Triple Dub — Subaru Impreza WRX STi",
+            "code": "L1 R1 L2 R2 ◀ ▶ ◀ ▶",
+            "effect": "Відкриває Subaru Impreza WRX STi (Triple Dub).",
+            "verified": false
+          }
+        ]
+      }
+    }
+  ],
+  "noNewCodes": [
+    "nfs-nitro",
+    "nfs-world",
+    "nfs-hot-pursuit-2010",
+    "nfs-most-wanted-2012",
+    "nfs-rivals",
+    "nfs-2015",
+    "nfs-payback",
+    "nfs-heat",
+    "nfs-unbound",
+    "nfs-shift-2-unleashed",
+    "gran-turismo-4-prologue",
+    "gran-turismo-5-prologue",
+    "gran-turismo-5",
+    "gran-turismo-6",
+    "gran-turismo-sport",
+    "gran-turismo-7"
+  ],
+  "optionalStructuralChanges": [
+    {
+      "slug": "gran-turismo-4-prologue",
+      "platform": "ps2",
+      "reason": "No built-in cheat codes; platform block would complete the page."
+    },
+    {
+      "slug": "gran-turismo-5-prologue",
+      "platform": "ps3",
+      "reason": "No built-in cheat codes; platform block would complete the page."
+    },
+    {
+      "slug": "gran-turismo-5",
+      "platform": "ps3",
+      "reason": "No built-in cheat codes; platform block would complete the page."
+    },
+    {
+      "slug": "gran-turismo-6",
+      "platform": "ps3",
+      "reason": "No built-in cheat codes; platform block would complete the page."
+    },
+    {
+      "slug": "gran-turismo-sport",
+      "platform": "ps4",
+      "reason": "No built-in cheat codes; platform block would complete the page."
+    },
+    {
+      "slug": "gran-turismo-7",
+      "platform": "ps4",
+      "reason": "No built-in cheat codes; PS5 is absent from the current platform taxonomy."
+    }
+  ],
+  "taxonomyGaps": [
+    "ps5",
+    "xboxseries",
+    "switch"
+  ],
+  "impactIfRecommendedApplied": {
+    "games": {
+      "before": 41,
+      "after": 42
+    },
+    "coreGames": {
+      "before": 24,
+      "after": 25
+    },
+    "bonusGames": {
+      "before": 17,
+      "after": 17
+    },
+    "codes": {
+      "before": 699,
+      "after": 699
+    },
+    "platformBlocksAdded": 5,
+    "corePcGames": {
+      "before": 20,
+      "after": 23
+    },
+    "corePs3Games": {
+      "before": 6,
+      "after": 7
+    },
+    "coreXbox360Games": {
+      "before": 6,
+      "after": 7
+    }
+  },
+  "impactIfQuarantinedApplied": {
+    "codes": {
+      "before": 699,
+      "after": 704
+    },
+    "coreCodes": {
+      "before": 550,
+      "after": 555
+    },
+    "pspCodes": {
+      "before": 38,
+      "after": 43
+    },
+    "unverified": {
+      "before": 125,
+      "after": 130
+    },
+    "coreUnverified": {
+      "before": 67,
+      "after": 72
+    },
+    "hasCodesUndergroundRivals": {
+      "before": false,
+      "after": true
+    }
+  },
+  "laterApplied": {
+    "date": "2026-10-28",
+    "option": "C (structures)",
+    "sourceReport": "ZERO-COVERAGE-GENERATION-2026-10-28.md",
+    "status": "applied",
+    "blocksAdded": 12,
+    "codesAdded": 0,
+    "ugrCandidatesApplied": false
+  }
+}

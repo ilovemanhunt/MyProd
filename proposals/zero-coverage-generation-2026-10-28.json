@@ -1,0 +1,518 @@
+{
+  "generated": "2026-10-28",
+  "status": "applied-variant-c-structures",
+  "sourceReport": "ZERO-COVERAGE-GENERATION-2026-10-28.md",
+  "basedOn": {
+    "file": "data/games.json",
+    "version": "1.2.7",
+    "updated": "2026-10-24",
+    "games": 42,
+    "coreGames": 25,
+    "bonusGames": 17,
+    "codes": 699,
+    "coreCodes": 550,
+    "bonusCodes": 149,
+    "unverified": 125,
+    "coreUnverified": 67,
+    "bonusUnverified": 58,
+    "platformBlocks": 108
+  },
+  "summary": {
+    "newVerifiedTrue": 0,
+    "newVerifiedFalse": 5,
+    "newCodes": 5,
+    "structureBlocksProposed": 12,
+    "coreStructureBlocksProposed": 6,
+    "bonusStructureBlocksProposed": 6,
+    "recommendedOption": "C",
+    "recommendation": "Variant C applied: structures only; UGR candidates remain quarantined until manual testing or a second independent source.",
+    "appliedOption": "C",
+    "structureBlocksApplied": 12,
+    "newVerifiedFalseApplied": 0,
+    "codesAdded": 0,
+    "appliedOptionName": "structures-only"
+  },
+  "scope": [
+    "nfs-underground-rivals",
+    "nfs-nitro",
+    "nfs-world",
+    "nfs-hot-pursuit-2010",
+    "nfs-shift-2-unleashed",
+    "nfs-most-wanted-2012",
+    "nfs-rivals",
+    "nfs-2015",
+    "nfs-payback",
+    "nfs-heat",
+    "nfs-unbound",
+    "gran-turismo-4-prologue",
+    "gran-turismo-5-prologue",
+    "gran-turismo-5",
+    "gran-turismo-6",
+    "gran-turismo-sport",
+    "gran-turismo-7"
+  ],
+  "existingStructures": [
+    {
+      "game": "nfs-underground-rivals",
+      "platforms": [
+        "psp"
+      ],
+      "codes": 0,
+      "note": "Block exists but howTo currently says there are no built-in codes. Replace only if UGR candidates are approved."
+    },
+    {
+      "game": "nfs-nitro",
+      "platforms": [
+        "wii",
+        "nds"
+      ],
+      "codes": 0,
+      "note": "No built-in codes found; keep empty blocks."
+    },
+    {
+      "game": "nfs-world",
+      "platforms": [
+        "pc"
+      ],
+      "codes": 0,
+      "note": "PC block added in Variant A; keep empty."
+    },
+    {
+      "game": "nfs-hot-pursuit-2010",
+      "platforms": [
+        "pc",
+        "wii"
+      ],
+      "codes": 0,
+      "note": "Add ps3 and xbox360 blocks; no codes."
+    },
+    {
+      "game": "nfs-shift-2-unleashed",
+      "platforms": [
+        "pc",
+        "ps3",
+        "xbox360"
+      ],
+      "codes": 0,
+      "note": "Added in Variant A; complete."
+    },
+    {
+      "game": "nfs-most-wanted-2012",
+      "platforms": [
+        "pc",
+        "ps3",
+        "xbox360",
+        "wiiu",
+        "vita"
+      ],
+      "codes": 0,
+      "note": "Complete; keep empty blocks."
+    },
+    {
+      "game": "nfs-rivals",
+      "platforms": [
+        "pc",
+        "ps4",
+        "xboxone"
+      ],
+      "codes": 0,
+      "note": "Add ps3 and xbox360 blocks; no codes."
+    },
+    {
+      "game": "nfs-2015",
+      "platforms": [
+        "pc",
+        "ps4",
+        "xboxone"
+      ],
+      "codes": 0,
+      "note": "Complete; keep empty blocks."
+    },
+    {
+      "game": "nfs-payback",
+      "platforms": [
+        "pc",
+        "ps4",
+        "xboxone"
+      ],
+      "codes": 0,
+      "note": "Complete; keep empty blocks."
+    },
+    {
+      "game": "nfs-heat",
+      "platforms": [
+        "pc",
+        "ps4",
+        "xboxone"
+      ],
+      "codes": 0,
+      "note": "Complete; keep empty blocks."
+    },
+    {
+      "game": "nfs-unbound",
+      "platforms": [
+        "pc"
+      ],
+      "codes": 0,
+      "note": "Add ps4 and xboxone blocks; ps5/xboxseries/switch are absent from taxonomy."
+    }
+  ],
+  "structures": [
+    {
+      "game": "nfs-hot-pursuit-2010",
+      "addPlatforms": {
+        "ps3": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — автомобілі та події відкриваються через кар'єру."
+          ],
+          "codes": []
+        },
+        "xbox360": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — автомобілі та події відкриваються через кар'єру."
+          ],
+          "codes": []
+        }
+      },
+      "applied": true
+    },
+    {
+      "game": "nfs-rivals",
+      "addPlatforms": {
+        "ps3": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — прогрес відкривається через SpeedLists і завдання."
+          ],
+          "codes": []
+        },
+        "xbox360": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — прогрес відкривається через SpeedLists і завдання."
+          ],
+          "codes": []
+        }
+      },
+      "applied": true
+    },
+    {
+      "game": "nfs-unbound",
+      "addPlatforms": {
+        "ps4": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — автомобілі та прогрес відкриваються через гру та онлайн-сезони."
+          ],
+          "codes": []
+        },
+        "xboxone": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — автомобілі та прогрес відкриваються через гру та онлайн-сезони."
+          ],
+          "codes": []
+        }
+      },
+      "applied": true
+    },
+    {
+      "game": "gran-turismo-4-prologue",
+      "addPlatforms": {
+        "ps2": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — автомобілі та прогрес відкриваються через гру."
+          ],
+          "codes": []
+        }
+      },
+      "applied": true
+    },
+    {
+      "game": "gran-turismo-5-prologue",
+      "addPlatforms": {
+        "ps3": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — автомобілі та прогрес відкриваються через гру."
+          ],
+          "codes": []
+        }
+      },
+      "applied": true
+    },
+    {
+      "game": "gran-turismo-5",
+      "addPlatforms": {
+        "ps3": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — автомобілі та прогрес відкриваються через гру."
+          ],
+          "codes": []
+        }
+      },
+      "applied": true
+    },
+    {
+      "game": "gran-turismo-6",
+      "addPlatforms": {
+        "ps3": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — автомобілі та прогрес відкриваються через гру."
+          ],
+          "codes": []
+        }
+      },
+      "applied": true
+    },
+    {
+      "game": "gran-turismo-sport",
+      "addPlatforms": {
+        "ps4": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — автомобілі та прогрес відкриваються через гру та онлайн-сезони."
+          ],
+          "codes": []
+        }
+      },
+      "applied": true
+    },
+    {
+      "game": "gran-turismo-7",
+      "addPlatforms": {
+        "ps4": {
+          "input": "buttons",
+          "howTo": [
+            "Вбудованих чіт-кодів немає — автомобілі та прогрес відкриваються через гру та онлайн-сезони."
+          ],
+          "codes": []
+        }
+      },
+      "applied": true
+    }
+  ],
+  "candidates": [
+    {
+      "game": "nfs-underground-rivals",
+      "platform": "psp",
+      "input": "buttons",
+      "howTo": [
+        "Комбінації вводяться кнопками PSP у грі.",
+        "GameGenie подає їх як послідовність натискань; точне місце введення (меню/екран) у джерелі не вказане.",
+        "Це кандидати з одним джерелом, тому вони позначені як «не перевірено»."
+      ],
+      "codes": [
+        {
+          "category": "Ігровий процес",
+          "name": "Прискорення x2, крутний момент x6, потужність x2, керованість x9",
+          "code": "L1 L1 L1 R1 R1 R1 ◀ ▶",
+          "effect": "Acceleration x2, Torque x6, Power x2, Handling x9, All Type Grip x99000000",
+          "verified": false
+        },
+        {
+          "category": "Автомобілі",
+          "name": "DJ Wes — Chevrolet Corvette Z06",
+          "code": "R1 R1 R2 R2 ▶ ▶ ◀ ◀",
+          "effect": "Відкриває авто DJ Wes",
+          "verified": false
+        },
+        {
+          "category": "Автомобілі",
+          "name": "GT King — Nissan Skyline R34 GTR",
+          "code": "L1 L1 L2 L2 ◀ ◀ ▶ ▶",
+          "effect": "Відкриває авто GT King",
+          "verified": false
+        },
+        {
+          "category": "Автомобілі",
+          "name": "Tank — 1969 Dodge Charger",
+          "code": "R1 L1 R2 L2 ▶ ◀ ▶ ◀",
+          "effect": "Відкриває авто Tank",
+          "verified": false
+        },
+        {
+          "category": "Автомобілі",
+          "name": "Triple Dub — Subaru Impreza WRX STi",
+          "code": "L1 R1 L2 R2 ◀ ▶ ◀ ▶",
+          "effect": "Відкриває авто Triple Dub",
+          "verified": false
+        }
+      ],
+      "sourceStatus": "single-source",
+      "nameNote": "GameGenie spells the driver 'DJ Wess'; GameFAQs and common usage use 'DJ Wes'. The data uses 'DJ Wes'.",
+      "recommended": false,
+      "applied": false
+    }
+  ],
+  "noCodes": [
+    {
+      "game": "nfs-nitro",
+      "reason": "No built-in codes found; progress through stars and races."
+    },
+    {
+      "game": "nfs-world",
+      "reason": "No built-in codes; promo codes and seasonal rewards are not cheat codes."
+    },
+    {
+      "game": "nfs-hot-pursuit-2010",
+      "reason": "No built-in codes; cars and events unlock through career."
+    },
+    {
+      "game": "nfs-shift-2-unleashed",
+      "reason": "No built-in codes; progress through career."
+    },
+    {
+      "game": "nfs-most-wanted-2012",
+      "reason": "No built-in codes; Limited Edition/DLC are not codes."
+    },
+    {
+      "game": "nfs-rivals",
+      "reason": "No built-in codes; progress through SpeedLists and assignments."
+    },
+    {
+      "game": "nfs-2015",
+      "reason": "No built-in codes; cars are purchased with in-game currency."
+    },
+    {
+      "game": "nfs-payback",
+      "reason": "No built-in codes; progress through career."
+    },
+    {
+      "game": "nfs-heat",
+      "reason": "No built-in codes; progress through reputation and events."
+    },
+    {
+      "game": "nfs-unbound",
+      "reason": "No built-in codes; cars and progress through game and online seasons."
+    },
+    {
+      "game": "gran-turismo-4-prologue",
+      "reason": "No built-in codes found."
+    },
+    {
+      "game": "gran-turismo-5-prologue",
+      "reason": "No built-in codes found."
+    },
+    {
+      "game": "gran-turismo-5",
+      "reason": "No built-in codes; anti-cheat/save editing is not a cheat code."
+    },
+    {
+      "game": "gran-turismo-6",
+      "reason": "No built-in codes found."
+    },
+    {
+      "game": "gran-turismo-sport",
+      "reason": "No built-in codes found."
+    },
+    {
+      "game": "gran-turismo-7",
+      "reason": "No built-in codes found."
+    }
+  ],
+  "impact": {
+    "beforeVariantC": {
+      "version": "1.2.7",
+      "games": 42,
+      "codes": 699,
+      "coreCodes": 550,
+      "pspCodes": 38,
+      "unverified": 125,
+      "coreUnverified": 67,
+      "platformBlocks": 108
+    },
+    "current": {
+      "version": "1.2.8",
+      "games": 42,
+      "codes": 699,
+      "coreCodes": 550,
+      "pspCodes": 38,
+      "unverified": 125,
+      "coreUnverified": 67,
+      "platformBlocks": 120,
+      "verifiedTrue": 0
+    },
+    "structuresOnly": {
+      "games": 42,
+      "codes": 699,
+      "unverified": 125,
+      "platformBlocks": 120,
+      "corePlatformBlocksAdded": 6,
+      "bonusPlatformBlocksAdded": 6,
+      "verifiedTrue": 0
+    },
+    "ugrOnly": {
+      "games": 42,
+      "codes": 704,
+      "coreCodes": 555,
+      "pspCodes": 43,
+      "unverified": 130,
+      "coreUnverified": 72,
+      "platformBlocks": 108,
+      "undergroundRivalsHasCodes": true,
+      "verifiedTrue": 0,
+      "applied": false
+    },
+    "structuresAndUgr": {
+      "games": 42,
+      "codes": 704,
+      "coreCodes": 555,
+      "pspCodes": 43,
+      "unverified": 130,
+      "coreUnverified": 72,
+      "platformBlocks": 120,
+      "undergroundRivalsHasCodes": true,
+      "verifiedTrue": 0,
+      "applied": false
+    }
+  },
+  "applicationChecklist": [
+    "Apply only selected structures/candidates.",
+    "Regenerate data/games.js as an exact mirror of data/games.json.",
+    "Bump meta.version to 1.2.8 and meta.updated to 2026-10-28.",
+    "Replace ?v=17 with ?v=18 in all five HTML files.",
+    "Update README counts only if codes or game counts change.",
+    "Validate mirror, duplicate slugs, platform refs, hasCodes, code/category duplicates, and counts.",
+    "Smoke-test UGR, Hot Pursuit 2010, Rivals, Unbound, GT pages, and PS3/Xbox 360/PS4/Xbox One platform pages.",
+    "Do not promote UGR candidates to verified:true without a second source or manual test."
+  ],
+  "sources": [
+    "https://www.gamegenie.com/cheats/psp/nfsundergroundrivals.html",
+    "https://gamefaqs.gamespot.com/psp/920772-need-for-speed-underground-rivals/cheats",
+    "https://needforspeed.fandom.com/wiki/Need_for_Speed:_Nitro",
+    "https://needforspeed.fandom.com/wiki/Need_for_Speed:_World",
+    "https://needforspeed.fandom.com/wiki/Need_for_Speed:_Hot_Pursuit_(2010)",
+    "https://needforspeed.fandom.com/wiki/Need_for_Speed:_Most_Wanted_(2012)",
+    "https://needforspeed.fandom.com/wiki/Need_for_Speed:_Rivals",
+    "https://needforspeed.fandom.com/wiki/Need_for_Speed_(2015)",
+    "https://needforspeed.fandom.com/wiki/Need_for_Speed:_Payback",
+    "https://needforspeed.fandom.com/wiki/Need_for_Speed:_Heat",
+    "https://needforspeed.fandom.com/wiki/Need_for_Speed:_Unbound",
+    "https://needforspeed.fandom.com/wiki/Shift_2:_Unleashed",
+    "https://needforspeed.fandom.com/wiki/Need_for_Speed:_Underground_-_Rivals",
+    "https://gran-turismo.fandom.com/wiki/Gran_Turismo_4_Prologue",
+    "https://gran-turismo.fandom.com/wiki/Gran_Turismo_5_Prologue",
+    "https://gran-turismo.fandom.com/wiki/Gran_Turismo_5",
+    "https://gran-turismo.fandom.com/wiki/Gran_Turismo_6",
+    "https://gran-turismo.fandom.com/wiki/Gran_Turismo_Sport",
+    "https://gran-turismo.fandom.com/wiki/Gran_Turismo_7"
+  ],
+  "sourceAccessDate": "2026-10-28",
+  "applied": {
+    "option": "C",
+    "date": "2026-10-28",
+    "version": "1.2.8",
+    "htmlVersion": "18",
+    "structuresApplied": true,
+    "ugrCandidatesApplied": false,
+    "codesAdded": 0,
+    "blocksAdded": 12,
+    "optionName": "structures-only"
+  }
+}

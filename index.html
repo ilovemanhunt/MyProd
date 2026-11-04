@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NFS // CHEATBASE — чіт-коди Need for Speed</title>
+  <meta name="description" content="Каталог чіт-кодів для всіх частин Need for Speed: Underground, Most Wanted, Carbon та інших. Пошук, фільтри за платформами, покрокові інструкції.">
+  <link rel="stylesheet" href="assets/css/styles.css?v=25">
+</head>
+<body data-page="home">
+  <header id="site-header"></header>
+
+  <main>
+    <!-- ================================================================= HERO -->
+    <section class="hero">
+      <div class="wrap">
+        <p class="kicker">База чіт-кодів &bull; 1994 &rarr; сьогодні</p>
+        <h1 class="hero-title">Чіт-коди для <span class="grad">Need for Speed</span></h1>
+        <p class="hero-sub">
+          Усі коди серії в одному місці: знаходьте за назвою гри або самим кодом,
+          фільтруйте за платформою та копіюйте в один клік.
+        </p>
+
+        <div class="search">
+          <div class="search-field">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.2-3.2"></path>
+            </svg>
+            <label class="sr-only" for="heroSearch">Пошук гри або коду</label>
+            <input id="heroSearch" type="search" autocomplete="off" spellcheck="false"
+                   placeholder="Гра або код — напр. iammostwanted, Underground 2, Carbon...">
+            <button class="search-clear" id="searchClear" type="button" aria-label="Очистити">&times;</button>
+          </div>
+          <div class="search-results" id="searchResults" hidden></div>
+        </div>
+
+        <div class="chips" id="familyChips" role="tablist" aria-label="Фільтр за платформами"></div>
+
+        <div class="hero-stats">
+          <div>
+            <div class="stat-val neon" id="statGames">—</div>
+            <div class="stat-lbl">ігор у базі</div>
+          </div>
+          <div>
+            <div class="stat-val lime" id="statCodes">—</div>
+            <div class="stat-lbl">чіт-кодів</div>
+          </div>
+          <div>
+            <div class="stat-val violet" id="statPlatforms">—</div>
+            <div class="stat-lbl">платформ</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= POPULAR -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>Популярні ігри</h2>
+            <p class="sub">Легенди серії, які шукають найчастіше</p>
+          </div>
+          <a class="head-link" href="games.html">Увесь каталог &rarr;</a>
+        </div>
+        <div class="grid-games" id="popularGrid">
+          <div class="loading"><div class="spinner"></div>Завантаження…</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================== RECENT -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <h2>Останні оновлення</h2>
+            <p class="sub">Нещодавно додані та оновлені набори кодів</p>
+          </div>
+        </div>
+        <div class="update-list" id="recentList">
+          <div class="loading"><div class="spinner"></div>Завантаження…</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="data/games.js?v=25" defer></script>
+  <script src="assets/js/app.js?v=25" defer></script>
+  <script src="assets/js/home.js?v=25" defer></script>
+</body>
+</html>

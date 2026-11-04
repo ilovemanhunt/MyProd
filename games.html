@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Каталог ігор — NFS // CHEATBASE</title>
+  <meta name="description" content="Усі частини Need for Speed, згруповані за епохами: класика 90-х, золота епоха стрітрейсингу та сучасні ігри.">
+  <link rel="stylesheet" href="assets/css/styles.css?v=25">
+</head>
+<body data-page="games">
+  <header id="site-header"></header>
+
+  <main>
+    <div class="wrap">
+      <div class="page-head">
+        <div class="breadcrumbs"><a href="index.html">Головна</a> / <span>Ігри</span></div>
+        <h1>Каталог ігор</h1>
+        <p>Ігри серії Need for Speed, згруповані за епохами. Обирайте платформу, щоб звузити список.</p>
+
+        <div class="search" style="margin-top:22px">
+          <div class="search-field">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.2-3.2"></path>
+            </svg>
+            <label class="sr-only" for="catalogSearch">Пошук</label>
+            <input id="catalogSearch" type="search" autocomplete="off" spellcheck="false" placeholder="Пошук гри або коду…">
+            <button class="search-clear" id="searchClear" type="button" aria-label="Очистити">&times;</button>
+          </div>
+          <div class="search-results" id="searchResults" hidden></div>
+        </div>
+
+        <div class="chips" id="catalogChips"></div>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="wrap">
+        <div id="catalog">
+          <div class="loading"><div class="spinner"></div>Завантаження…</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="data/games.js?v=25" defer></script>
+  <script src="assets/js/app.js?v=25" defer></script>
+  <script src="assets/js/catalog.js?v=25" defer></script>
+</body>
+</html>
